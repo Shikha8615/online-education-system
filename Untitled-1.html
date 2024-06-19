@@ -1,0 +1,31 @@
+<div id="movie-grid">
+    <!-- Movie posters will be dynamically generated here -->
+   </div>
+   
+   Search and Filter:
+   <input type="text" id="search-input" placeholder="Search movies">
+   <select id="genre-filter">
+    <option value="">All Genres</option>
+    <!-- Populate genre options dynamically -->
+   </select>
+   <button onclick="searchMovies()">Search</button>
+   
+   function searchMovies() {
+    const searchTerm = document.getElementById("search-input").value;
+    const selectedGenre = document.getElementById("genre-filter").value;
+    // Perform search operation and update movie grid
+   }
+   
+   Movie Details:
+   <div class="movie-details">
+    <h2>Movie Title</h2>
+    <img src="movie-poster.jpg" alt="Movie Poster">
+    <p>Synopsis:</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    <p>Genre: Action</p>
+    <p>Director: John Doe</p>
+    <p>Cast: Actor 1, Actor 2, Actor 3</p>
+    <p>Rating: 8.5/10</p>
+   </div>
+   
+   

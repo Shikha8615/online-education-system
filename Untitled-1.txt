@@ -1,0 +1,24 @@
+there are two browsers in engine
+1.Layout engine( HTML, CSS)
+2.Js layout engine (java Script)
+
+HYPERTEXT:-
+hyperlinks means redirecting connect different pages
+s
+Syntax (body str):-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hiii
+</body>
+</html>
+
+
+TAg:- <html>  open tag
+      </html> close tag
+!:- it gives str of html
